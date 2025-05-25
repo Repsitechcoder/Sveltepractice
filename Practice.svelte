@@ -4,10 +4,10 @@
 }
 </script>
 
-<button onclick={greet}>click me</button>
+<button on:click={greet}>click me</button>
 
 <style>
    button {
-      font-size: 2m;
+      font-size: 2em;
  }
 </style>
